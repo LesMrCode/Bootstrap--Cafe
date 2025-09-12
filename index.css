@@ -1,0 +1,22 @@
+.hero-section {
+    position: relative;
+    height: 60vh;
+    color: white;
+    overflow: hidden;
+}
+
+/* This adds a dark overlay ontop of the hero asset picture */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    z-index: -1;
+}
