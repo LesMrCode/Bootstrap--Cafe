@@ -20,3 +20,31 @@
     background-blend-mode: multiply;
     z-index: -1;
 }
+/* This gives the navbar a background color*/
+.container-fluid{
+    background-color: #6f4e37;
+    font-size: larger;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+/* Styling for the text in the find us section */
+.find-us-content{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.find-us-section{
+    background-color: #e3bc9a;
+    border-style: groove;
+    border-color: #e3bc9a;
+}
+
+/*Styling for Contact Us section*/
+.contact{
+    font-size: larger;
+    font-weight: bold;
+}
